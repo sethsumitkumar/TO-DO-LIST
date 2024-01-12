@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST</title>
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="new.css">
+    
+    <style>
+      *{
+        padding: 0px;
+        margin: opx;
+        box-sizing: border-box;
+      }
+      body{
+        width: 100vw;
+        height: 100vh;
+        background: url("sander-dewerte--jcP3xbN88w-unsplash.jpg");
+        background-size: cover;
+      }
+      #new1 {
+        text-align: center;
+        background-image: url("annie-spratt-h-LcVG8W1XY-unsplash.jpg");
+        background-size: cover;
+        color: azure;
+        padding-top: 6px;
+        font-size: 35px;
+      }
+      .navbar {
+        border-radius: 5px;
+      }
+      .navbar li {
+        float: left;
+        list-style: none;
+        margin: 3px 3px;
+      }
+
+      .navbar li a {
+        padding: 3px 140px;
+        text-decoration: none;
+        color: rgb(182, 150, 150);
+      }
+      .navbar li a:hover {
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 60px;
+      }
+      .navbar ul {
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body background="">
+    <div id="new1">
+      <b> Welcome To To Do List </b>
+    </div>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href=""><b>Home</b></a>
+          </li>
+          <li>
+            <a href="https://checkify.com/blog/what-is-a-todo-list/"
+              ><b>About</b></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://parade.com/973277/jessicasager/inspirational-quotes/"
+              ><b>Motivation Quotes</b></a
+            >
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/sumit-kumar-881041254"
+              ><b>Contact Us</b></a>
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>Task Box</h1>
+      <div class="inputs">
+     <input type="text" placeholder="Enter Your Today Task....." id= "inp" >
+     <button onclick="Add()">Add</button>
+      </div>
+      <div>
+        <div class="text">
+
+        </div>
+      </div>
+    </div>
+    
+<script src="new.js"></script>
+  </body>
+</html>
